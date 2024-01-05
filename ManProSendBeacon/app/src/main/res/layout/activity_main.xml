@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textvBluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25sp"
+        android:textSize="25sp"
+        android:text="@string/textBluetooth" />
+
+    <Button
+        android:id="@+id/btnBluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/btnBluetooth"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="25sp"
+        android:layout_marginEnd="25sp"
+        android:layout_marginRight="21sp"
+        android:text="@string/btnBluetooth" />
+
+    <TextView
+        android:id="@+id/textvInternet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textvBluetooth"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="25sp"
+        android:textSize="25sp"
+        android:text="@string/textInternet"/>
+
+    <Button
+        android:id="@+id/btnInternet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnBluetooth"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBaseline="@id/textvInternet"
+        android:layout_marginRight="25sp"
+        android:layout_marginTop="25sp"
+        android:text="@string/btnInternet" />
+
+   <!-- <TextView
+        android:id="@+id/textPref"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textvInternet"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="25sp"
+        android:textSize="25sp"
+        android:text="Preferenze"/>
+
+    <Button
+        android:id="@+id/btnPref"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnInternet"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBaseline="@id/textPref"
+        android:layout_marginRight="25sp"
+        android:layout_marginTop="25sp"
+        android:text="Controlla" />
+    -->
+
+    <Button
+        android:id="@+id/btnImpostazioni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/textvInternet"
+        android:text="@string/btnImpostazioni"
+        android:layout_margin="25sp"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+<!--
+    <WebView
+        android:id="@+id/webViewPref"
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:gravity="center"
+        android:layout_below="@+id/btnImpostazioni"
+        android:layout_margin="25sp" />
+-->
+    <TextView
+        android:id="@+id/title_lastDataSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnImpostazioni"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="25sp"
+        android:textSize="25sp"
+        android:layout_margin="25sp" />
+
+    <Button
+        android:id="@+id/btnLastScanData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/title_lastDataSend"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="25sp"
+        android:layout_marginEnd="25sp"
+        android:layout_marginRight="21sp"
+        android:text="@string/btnBluetooth" />
+
+    <TextView
+        android:id="@+id/lastDataSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_lastDataSend"
+        android:layout_marginStart="25sp"
+        android:layout_marginTop="10sp"/>
+
+</RelativeLayout>

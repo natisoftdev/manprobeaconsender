@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="pref_default"
+     android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <PreferenceCategory
+        android:title="@string/sezione1"
+        android:key="pref_key_sezione1">
+
+<!--
+        <EditTextPreference
+            android:capitalize="none"
+            android:inputType="text|textEmailAddress"
+            android:key="pref_indirizzoInvio"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:summary="@string/pref_summary_indirizzoInvio"
+            android:title="@string/pref_title_indirizzoInvio" />
+-->
+
+        <EditTextPreference
+            android:capitalize="none"
+            android:inputType="text|textEmailAddress"
+            android:key="pref_stringa_connessione"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:summary="@string/pref_generic_summary"
+            android:title="Stringa di connessione" />
+
+<!--
+        <EditTextPreference
+            android:title="@string/pref_stringa_connessione"
+            android:summary="@string/pref_generic_summary"
+            android:key="pref_db_string"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:inputType="text|textEmailAddress"
+            android:capitalize="none" />
+-->
+<!--
+        <EditTextPreference
+            android:title="@string/pref_login"
+            android:summary="@string/pref_generic_summary"
+            android:key="pref_db_login"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:inputType="text|textEmailAddress"
+            android:capitalize="none" />
+
+        <EditTextPreference
+            android:title="@string/pref_password"
+            android:summary="@string/pref_generic_summary"
+            android:key="pref_db_password"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:inputType="textPassword"
+            android:password="true"
+            android:capitalize="none" />
+-->
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Scansione"
+        android:key="pref_key_sezione2">
+
+        <EditTextPreference
+            android:title="@string/pref_time_send"
+            android:summary="@string/pref_time_send_summary"
+            android:key="pref_time_send"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:inputType="number"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Database">
+        <Preference android:title="Svuotare Database" android:key="deleteDB" android:summary="Non sarà più possibile recuperare i dati"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/assistenza" >
+        <Preference android:title="@string/inviaReport" android:key="sendData" android:summary="@string/invioDatiEmail"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Aggiornamenti" >
+        <Preference android:title="@string/pref_updateApp" android:key="updateApp" android:summary="@string/txtGooglePlay"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/sezione3" >
+        <Preference android:title="@string/pref_versione" android:key="versionNumberUser" android:summary=""/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="" >
+        <!-- Per pulizia grafica -->
+    </PreferenceCategory>
+
+</PreferenceScreen>

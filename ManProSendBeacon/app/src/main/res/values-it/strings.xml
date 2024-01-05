@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ManProBeaconSender</string>
+    <string name="pref_login" translatable="false">Login</string>
+    <string name="pref_password" translatable="false">Password</string>
+    <string name="textInternet">Internet</string>
+    <string name="textBluetooth">Bluetooth</string>
+    <string name="sezione1">Account</string>
+    <string name="assistenza">Assistenza</string>
+    <string name="bluetoothAcceso">Bluetooth abilitao</string>
+    <string name="bluetoothSpento">Bluetooth NON abilitato</string>
+    <string name="btnBluetooth">Controlla</string>
+    <string name="btnImpostazioni">Impostazioni</string>
+    <string name="btnInternet">Controlla</string>
+    <string name="chooseApplication">Scegliere applicazione</string>
+    <string name="connessioneAccesa">Connessione presente</string>
+    <string name="connessioneSpenta">Connessione NON presente</string>
+    <string name="errore">Errore</string>
+    <string name="inviaReport">Invia report</string>
+    <string name="invioDatiEmail">Invia i dati via Email</string>
+    <string name="pref_generic_summary">Il dato viene fornito dal gestore</string>
+    <string name="txtGooglePlay">su Google Play</string>
+    <string name="sezione3">Informazioni</string>
+    <string name="pref_updateApp">Cerca aggiornamenti</string>
+    <string name="pref_versione">Versione dell\'applicazione</string>
+    <string name="pref_summary_indirizzoInvio">"Indirizzo utilizzato per collegarsi al portale. Ad esempio https://sviluppo.manpronet.com "</string>
+    <string name="pref_title_indirizzoInvio">Indirizzo del portale</string>
+    <string name="pref_stringa_connessione">Identificativo del database</string>
+    <string name="mexRichiestaPosizione">Si prega di concedere l\\\'accesso alla posizione in modo che questa app possa rilevare i beacon in background.</string>
+    <string name="richiestaPosizione">Questa app richiede l\\\'accesso alla posizione GPS</string>
+</resources>

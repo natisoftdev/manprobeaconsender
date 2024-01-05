@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ManProBeaconSender</string>
+    <string name="assistenza">Soutien</string>
+    <string name="bluetoothAcceso">Bluetooth activé</string>
+    <string name="bluetoothSpento">Bluetooth non activé</string>
+    <string name="btnBluetooth">Chèque</string>
+    <string name="btnImpostazioni">Réglages</string>
+    <string name="btnInternet">Chèque</string>
+    <string name="chooseApplication">Choisissez une application</string>
+    <string name="connessioneAccesa">Connexion présente</string>
+    <string name="connessioneSpenta">Connexion non présente</string>
+    <string name="errore">Erreur</string>
+    <string name="inviaReport">Envoyer le rapport</string>
+    <string name="invioDatiEmail">Envoyer des données par e-mail</string>
+    <string name="pref_generic_summary">Les données sont fournies par l\'opérateur</string>
+    <string name="pref_login" translatable="false">Login</string>
+    <string name="pref_password" translatable="false">Password</string>
+    <string name="pref_stringa_connessione">Identifiant de base de données</string>
+    <string name="pref_summary_indirizzoInvio">Adresse utilisée pour se connecter au portail. Par exemple, https://sviluppo.manpronet.com</string>
+    <string name="pref_title_indirizzoInvio">Adresse du portail</string>
+    <string name="pref_updateApp">Rechercher des mises à jour</string>
+    <string name="pref_versione">Version de l\'application</string>
+    <string name="sezione1">Account</string>
+    <string name="sezione3">Information</string>
+    <string name="textBluetooth">Bluetooth</string>
+    <string name="textInternet">Internet</string>
+    <string name="txtGooglePlay">sur Google Play</string>
+    <string name="richiestaPosizione">Cette application nécessite l\\\'accès à la position GPS</string>
+    <string name="mexRichiestaPosizione">S\\\'il vous plaît accorder l\\\'accès à l\\\'emplacement afin que cette application peut détecter les balises en arrière-plan.</string>
+</resources>

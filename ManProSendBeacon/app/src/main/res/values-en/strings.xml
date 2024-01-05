@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ManProBeaconSender</string>
+    <string name="pref_login" translatable="false">Login</string>
+    <string name="pref_password" translatable="false">Password</string>
+    <string name="textInternet">Internet</string>
+    <string name="textBluetooth">Bluetooth</string>
+    <string name="sezione1">Account</string>
+    <string name="bluetoothAcceso">Bluetooth enabled</string>
+    <string name="bluetoothSpento">Bluetooth NOT enabled</string>
+    <string name="pref_generic_summary">The data is provided by the operator</string>
+    <string name="txtGooglePlay">on Google Play</string>
+    <string name="sezione3">Information</string>
+    <string name="pref_versione">Application version</string>
+    <string name="pref_updateApp">Search for updates</string>
+    <string name="pref_stringa_connessione">Database identifier</string>
+    <string name="invioDatiEmail">Send data via Email</string>
+    <string name="inviaReport">Send report</string>
+    <string name="errore">Error</string>
+    <string name="connessioneSpenta">Connection NOT present</string>
+    <string name="connessioneAccesa">Connection present</string>
+    <string name="chooseApplication">Choose application</string>
+    <string name="btnInternet">Check</string>
+    <string name="btnImpostazioni">Settings</string>
+    <string name="btnBluetooth">Check</string>
+    <string name="assistenza">Support</string>
+    <string name="pref_summary_indirizzoInvio">Address used to connect to the portal. For example, https://sviluppo.manpronet.com</string>
+    <string name="pref_title_indirizzoInvio">Portal address</string>
+    <string name="richiestaPosizione">This app requires access to the GPS position GPS</string>
+    <string name="mexRichiestaPosizione">Please grant access to the location so that this app can detect beacon in the background.</string>
+</resources>

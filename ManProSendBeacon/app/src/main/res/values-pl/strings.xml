@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ManProBeaconSender</string>
+    <string name="assistenza">Wsparcie</string>
+    <string name="bluetoothAcceso">Bluetooth włączony</string>
+    <string name="bluetoothSpento">Bluetooth NIE włączony</string>
+    <string name="btnBluetooth">Sprawdź</string>
+    <string name="btnImpostazioni">Ustawienia</string>
+    <string name="btnInternet">Sprawdź</string>
+    <string name="chooseApplication">Wybierz aplikację</string>
+    <string name="connessioneAccesa">Obecne połączenie</string>
+    <string name="connessioneSpenta">Połączenie NIE jest obecne</string>
+    <string name="errore">Błąd</string>
+    <string name="inviaReport">Wyślij raport</string>
+    <string name="invioDatiEmail">Wyślij dane przez e-mail</string>
+    <string name="pref_generic_summary">Dane są dostarczane przez operatora</string>
+    <string name="pref_login" translatable="false">Zaloguj się</string>
+    <string name="pref_password" translatable="false">Hasło</string>
+    <string name="pref_stringa_connessione">Identyfikator bazy danych</string>
+    <string name="pref_summary_indirizzoInvio">Adres używany do połączenia z portalem. Na przykład https://sviluppo.manpronet.com</string>
+    <string name="pref_title_indirizzoInvio">Adres portalu</string>
+    <string name="pref_updateApp">Wyszukaj aktualizacje</string>
+    <string name="pref_versione">Wersja aplikacji</string>
+    <string name="sezione1">Konto</string>
+    <string name="sezione3">Informacja</string>
+    <string name="textBluetooth">Bluetooth</string>
+    <string name="textInternet">Internet</string>
+    <string name="txtGooglePlay">w Google Play</string>
+    <string name="richiestaPosizione">Ta aplikacja wymaga dostępu do pozycji GPS</string>
+    <string name="mexRichiestaPosizione">Udziel dostępu do lokalizacji, aby ta aplikacja mogła wykryć sygnały nawigacyjne w tle.</string>
+</resources>
